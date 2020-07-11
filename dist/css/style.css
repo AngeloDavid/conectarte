@@ -1,0 +1,126 @@
+small{
+    font-weight: bold;
+}
+#portada .row{
+    width: 100%;
+    height: 100vh;
+    font-size: 2rem;
+}
+
+#portada img.logo{
+    width: 40%;
+    
+}
+
+#portada img.flecha{
+    width: 10%;
+}
+#inicio {
+    background-color: #ff4040;
+    color: white;
+}
+#inicio .row .col-7 .row {
+    font-size: 3rem;
+    height: 600px;
+    width: 100%;
+}
+
+#anuncio {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+#anuncio img {
+    width: 20%;
+    margin: auto;
+}
+
+#anuncio .card{
+    border-radius: 0%;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+
+}
+#anuncio .card small{
+    color: #ff4040;
+    font-weight: bold;
+}
+
+#anuncio .cardlast {
+    border-right: none;
+}
+
+#anuncio .cardlast small {
+    color: #40ff40;
+    font-weight: bold;
+}
+#msn-id .row .msni{
+    font-size: 1.8rem;
+}
+
+#msn-id .row .msni p{
+    padding-left: 30% ;
+}
+
+#msn-id .row .msnd{
+    padding-top: 2.5rem;
+    background-color: #4040ff;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 1.8rem;
+    color: white;
+    padding-bottom: 1.5rem;
+}
+#msn-id .row .msnd img{
+    width: 10%;
+}
+#msn-id .row .msnd .media{
+    margin-bottom: 2rem;
+    margin-left: 3%;
+}
+#msn-id .row .col:last-child .media .media-body{
+    margin-left: 5%;
+    
+}
+
+#videoregalo{
+    padding-top: 5rem;
+}
+#videoregalo .card {
+   border: none;
+}
+
+#videoregalo .card-header{
+    border-width: 3px;
+}
+
+#videoregalo .card .card{
+    padding-top: 5%;
+    border-radius: 0%;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: 1px solid;
+    border-color:  #40ff40;
+}
+
+#videoregalo .card:last-child {
+    border-right: none;
+}
+#videoregalo .card img{
+    width: 40%;
+    margin: auto;
+}
+#videoregalo .media {
+    font-size: 1.4rem;
+    text-align: justify;
+}
+#videoregalo .media img{
+    width: 3rem;
+}
+#videoregalo .media-body{
+    padding-left: 3%;
+}
+
+#videoregalo h2{
+    color: black;
+}
