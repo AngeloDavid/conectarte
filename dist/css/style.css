@@ -1,5 +1,35 @@
+@font-face {
+    font-family:"Nunito Nunito-Light" ;
+    src: url("../fonts/Nunito-Light.ttf");
+}
+
+@font-face {
+    font-family:"Nunito Nunito-Bold" ;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+*{
+    font-family:"Nunito Nunito-Light" ;
+    font-weight: 400;
+}
 small{
     font-weight: bold;
+}
+.navbar{
+   /*background: url("../../img/gradient-white.png") repeat-x;
+    background: rgba(255, 255, 255, 0.5);*/
+    background: -webkit-linear-gradient(bottom, white , rgba(255, 255, 255, 0.5)  ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom,  rgba(255, 255, 255)  , rgba(255, 255, 255, 0.5)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom,  rgba(255, 255, 255)  , rgba(255, 255, 255, 0.5)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(  to bottom,  rgba(255, 255, 255)  , rgba(255, 255, 255, 0.5)); /* Standard syntax */
+}
+#portada {
+    background-image: url("../../img/fondo1.jpg");
+    background-size: cover;
+}
+
+#portada .fondo{
+    background: rgba(255, 255, 255, 0.5);
 }
 #portada .row{
     width: 100%;
@@ -8,21 +38,32 @@ small{
 }
 
 #portada img.logo{
-    width: 40%;
+    width: 80%;
     
 }
 
 #portada img.flecha{
     width: 10%;
 }
-#inicio {
+#inicio .row.barra{
     background-color: #ff4040;
     color: white;
+    height: 200px;
 }
-#inicio .row .col-7 .row {
-    font-size: 3rem;
-    height: 600px;
-    width: 100%;
+#inicio .row.barra h1{
+    font-family:"Nunito Nunito-Bold" ;
+    font-size: 4rem;
+}
+#inicio .row {
+    font-size: 5rem;
+    height: 400px;
+}
+#inicio .row p{
+    padding-left: 30%;
+}
+#inicio .fondo p{ 
+    /*background-image: url("../../img/fondo2.jpeg");
+    background-size: cover;*/
 }
 
 #anuncio {
@@ -30,7 +71,7 @@ small{
     padding-bottom: 5rem;
 }
 #anuncio img {
-    width: 20%;
+    width: 70%;
     margin: auto;
 }
 
@@ -44,6 +85,7 @@ small{
 #anuncio .card small{
     color: #ff4040;
     font-weight: bold;
+
 }
 
 #anuncio .cardlast {
@@ -81,9 +123,29 @@ small{
     margin-left: 5%;
     
 }
+#msn-id2 .row .msnd{
+    padding-left: 10%;
+    padding-right: 5%;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 1.5rem;
+}
 
+#msn-id2 .row .msni{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    font-size: 1.1rem;
+    padding-right: 10%;
+}
+#msn-id2 .row .msni img{
+    width: 10%;
+}
+#msn-id2  .media-body{
+    margin-left: 10px;
+}
 #videoregalo{
     padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 #videoregalo .card {
    border: none;
@@ -92,6 +154,7 @@ small{
 #videoregalo .card-header{
     border-width: 3px;
 }
+
 
 #videoregalo .card .card{
     padding-top: 5%;
@@ -123,4 +186,61 @@ small{
 
 #videoregalo h2{
     color: black;
+}
+#videoregalo .card .card-header .mb-0 button{
+    font-size: 1.7rem;
+}
+
+
+#banner1{
+    padding-top: 5%;
+    height: 600px;
+    padding-bottom: 5%;
+}
+#banner2,#banner3{
+   /* height: 400px;*/
+    background-color: #e3e1e0;
+}
+#banner2 .container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#banner2 h1 {
+    font-family:"Nunito Nunito-Bold" ;
+    font-size: 6rem;
+    color: #ff4040;
+    text-shadow: 6px 9px #000;
+}
+#banner2 h2{
+    text-align: left;
+    font-size: 4rem;
+}
+#banner2 .col{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#banner3 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 2rem;
+}
+#banner3 h1{
+    font-size: 4rem;
+}
+ .col{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 1rem;
+}
+.footer a{
+    color: white;
+}
+
+#banner3 a:hover{
+    text-decoration: none;
 }
